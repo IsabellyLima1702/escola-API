@@ -1,5 +1,5 @@
 :root{
-  --cor-fundo: #ffffff;
+  --imagem-fundo: url('./img/image.png');
 }
 *{
     padding: 0;
@@ -27,4 +27,7 @@ body{
     width: 100vw;
     height: 100vh;
     background: linear-gradient(to bottom, #8F295E 10%, #A12A2A);
+    
 }
+
+
