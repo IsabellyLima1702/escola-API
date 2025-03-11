@@ -1,0 +1,30 @@
+:root{
+  --cor-fundo: #ffffff;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+.gradiente {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #8F295E 10%, #A12A2A);
+}
