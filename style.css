@@ -1,22 +1,19 @@
-:root{
-  --imagem-fundo: url('./img/image.png');
-}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
+  
 a{
     text-decoration: none;
     color: inherit;
     font-size: 20px;
 }
-
+  
 ul, ol, li{
     list-style: none;
 }
-
+  
 body{
     display: flex;
     justify-content: center;
@@ -27,7 +24,100 @@ body{
     width: 100vw;
     height: 100vh;
     background: linear-gradient(to bottom, #8F295E 10%, #A12A2A);
-    
+      
 }
 
+.escola{
+    margin-left: 65vh;
+    margin-top: 7vh;
+    height: 5vh;
+    width: 25.3vw;
+    font-size: 1.7vh;
+}
 
+.pesquisar{
+    height: 5vh;
+    width: 8vw;
+    margin-left: 5vh;
+    font-size: 2.6vh;
+    background-color: #5E1331;
+    color: white;
+
+}
+
+.perfil img{
+    margin-left: 155vh;
+    margin-top: -6vh;
+}
+
+.perfil p{
+    margin-left: 168vh;
+    margin-top: -8vh;
+    font-size: 3vh;
+}
+
+.cadastro{
+    margin-left: 168vh;
+    margin-top: -5vh;
+    font-size: 3vh;
+}
+
+.ajuda img{
+    margin-left: 185vh;
+    margin-top: -6.5vh;
+}
+
+.logo{
+    margin-top: -12vh;
+}
+
+.eua img{
+ height: 60vh;
+ width: 100vw;
+ margin-top: -3vh;
+}
+
+.insta{
+    margin-top: 3vh;
+    margin-left: 5vh;
+}
+
+.insta p{
+    color: white;
+    font-size: 3vh;
+    margin-left: 8vh;
+    margin-top: -6vh;
+}
+
+.face{
+    margin-left: 40vh;
+    margin-top: -5.6vh;
+}
+
+.face p{
+    color: white;
+    font-size: 3vh;
+    margin-left: 8vh;
+    margin-top: -6vh;
+}
+
+.twitter{
+    margin-top: -5.8vh;
+    margin-left: 78vh;
+}
+
+.twitter p{
+    color: white;
+    font-size: 3vh;
+    margin-left: 8vh;
+    margin-top: -5.6vh;
+}
+
+button{
+    height: 6vh;
+    width: 9vw;
+    background-color: white;
+    color: #8F295E;
+    margin-top: -3vh;
+    margin-left: 180vh;
+}
