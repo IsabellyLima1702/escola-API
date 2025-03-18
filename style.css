@@ -1,3 +1,7 @@
+:root{
+    --cor-hover:var(--cor-hover);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -28,17 +32,17 @@ body{
 }
 
 .escola{
-    margin-left: 65vh;
-    margin-top: 7vh;
+    margin-left: 60vh;
+    margin-top: 8vh;
     height: 5vh;
-    width: 25.3vw;
+    width: 26vw;
     font-size: 1.7vh;
 }
 
 .pesquisar{
     height: 5vh;
     width: 8vw;
-    margin-left: 5vh;
+    margin-left: 3vh;
     font-size: 2.6vh;
     background-color: #5E1331;
     color: white;
@@ -46,29 +50,29 @@ body{
 }
 
 .perfil img{
-    margin-left: 155vh;
+    margin-left: 138vh;
     margin-top: -6vh;
 }
 
 .perfil p{
-    margin-left: 168vh;
-    margin-top: -8vh;
+    margin-left: 150vh;
+    margin-top: -7vh;
     font-size: 3vh;
 }
 
 .cadastro{
-    margin-left: 168vh;
-    margin-top: -5vh;
+    margin-left: 150vh;
+    margin-top: -4vh;
     font-size: 3vh;
 }
 
 .ajuda img{
-    margin-left: 185vh;
+    margin-left: 165vh;
     margin-top: -6.5vh;
 }
 
 .logo{
-    margin-top: -12vh;
+    margin-top: -11vh;
 }
 
 .eua img{
@@ -78,7 +82,7 @@ body{
 }
 
 .insta{
-    margin-top: 3vh;
+    margin-top: 5vh;
     margin-left: 5vh;
 }
 
@@ -86,23 +90,23 @@ body{
     color: white;
     font-size: 3vh;
     margin-left: 8vh;
-    margin-top: -6vh;
+    margin-top: -5vh;
 }
 
 .face{
     margin-left: 40vh;
-    margin-top: -5.6vh;
+    margin-top: -5vh;
 }
 
 .face p{
     color: white;
     font-size: 3vh;
     margin-left: 8vh;
-    margin-top: -6vh;
+    margin-top: -5vh;
 }
 
 .twitter{
-    margin-top: -5.8vh;
+    margin-top: -4.8vh;
     margin-left: 78vh;
 }
 
@@ -119,5 +123,5 @@ button{
     background-color: white;
     color: #8F295E;
     margin-top: -3vh;
-    margin-left: 180vh;
+    margin-left: 150vh;
 }
