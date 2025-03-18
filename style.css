@@ -51,34 +51,34 @@ body{
 
 .perfil img{
     margin-left: 138vh;
-    margin-top: -6vh;
+    margin-top: -20vh;
 }
 
 .perfil p{
     margin-left: 150vh;
-    margin-top: -7vh;
+    margin-top: -23vh;
     font-size: 3vh;
 }
 
 .cadastro{
     margin-left: 150vh;
-    margin-top: -4vh;
+    margin-top: -20vh;
     font-size: 3vh;
 }
 
 .ajuda img{
     margin-left: 165vh;
-    margin-top: -6.5vh;
+    margin-top: -60vh;
 }
 
 .logo{
-    margin-top: -11vh;
+    margin-top: -12vh;
 }
 
 .eua img{
  height: 60vh;
  width: 100vw;
- margin-top: -3vh;
+ margin-top: 1vh;
 }
 
 .insta{
@@ -126,38 +126,41 @@ button{
     margin-left: 150vh;
 }
 
-#argumentos{
-    display: flex;
-    height: 100%;
-    width: 100%;
-    padding-left: 2vw;
-    
-}  
-
-.card{
-    background-color: rgb(250, 195, 123);
-    width: 17.3vw;
-    height: 56vh;
-    border-radius: 1vw;
-    margin-top: 20vh;  
-    margin-left: 1.5vw;   
+#galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 6vw;
+    padding: 8vh;
 }
 
-.card h2{
-    margin-top: 3vh;
-    margin-left: 1vw;
+#galeria div {
+    border: 1px solid #ccc;
 }
 
-.card p{
-    margin-top: 3vh;
-    margin-left: 1vw ;
-    margin-right: 1vw ;
-    font-size: 1vw;
+#galeria h2 {
+    margin-top: 10vh;
 }
 
-.card h3{
-    margin-top: 3vh;
-    font-size: 2vh;
-    color: rgb(90, 89, 89);
-    margin-left: 3vh;
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #F6EBEB;
+}
+
+.card h1 {
+    font-size: 3.8vh;
+    color: #63172D;
+
+}
+
+.card h2 {
+    color: #000000;
+    margin-bottom: 5vh;
+}
+
+.card h3 {
+    color: #000000;
+    margin-bottom: 5vh;
+    font-size: 2.3vh;
 }
