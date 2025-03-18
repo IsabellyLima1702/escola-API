@@ -12,9 +12,8 @@ async function pesquisarCard(city){
 
 function criarCard(link){
     const galeria = document.getElementById('galeria')
-    const novoCard = document.createElement('h1')
+    const novoCard = document.createElement('h2')
     novoCard.textContent = link
-
     galeria.appendChild(novoCard)
 }
 

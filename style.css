@@ -125,3 +125,39 @@ button{
     margin-top: -3vh;
     margin-left: 150vh;
 }
+
+#argumentos{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding-left: 2vw;
+    
+}  
+
+.card{
+    background-color: rgb(250, 195, 123);
+    width: 17.3vw;
+    height: 56vh;
+    border-radius: 1vw;
+    margin-top: 20vh;  
+    margin-left: 1.5vw;   
+}
+
+.card h2{
+    margin-top: 3vh;
+    margin-left: 1vw;
+}
+
+.card p{
+    margin-top: 3vh;
+    margin-left: 1vw ;
+    margin-right: 1vw ;
+    font-size: 1vw;
+}
+
+.card h3{
+    margin-top: 3vh;
+    font-size: 2vh;
+    color: rgb(90, 89, 89);
+    margin-left: 3vh;
+}
