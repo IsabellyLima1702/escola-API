@@ -49,6 +49,7 @@ document.getElementById('pesquisar')
     .addEventListener('click', preencherPagina);
 
 function exibirDetalhes(novo) {
+
     const nome = novo.target.dataset.nome;
     const estado = novo.target.dataset.estado;
     const cidade = novo.target.dataset.cidade;
@@ -73,11 +74,31 @@ function exibirDetalhes(novo) {
     `;
     const galeria = document.getElementById('galeria');
     galeria.replaceChildren(detalhesCard);
-        
+
     detalhesCard.querySelector('.voltar').addEventListener('click', preencherPagina);
 
-    
 }
+
+async function deletar(){
+    const logo      = document.getElementById('logo')
+    const imagem    = document.getElementById('imagem')
+    const insta     = document.getElementById('insta')
+    const face      = document.getElementById('face')
+    const twitter   = document.getElementById('twitter')
+    const cadastrar = document.getElementById('cadastrar')
+
+    logo.style.display = 'none';
+    imagem.style.display = 'none';
+    insta.style.display = 'none';
+    face.style.display = 'none';
+    twitter.style.display = 'none';
+    cadastrar.style.display = 'none'
+
+}
+
+document.getElementById('pesquisar').addEventListener('click', deletar);
+
+
 
 
 
