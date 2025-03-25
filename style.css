@@ -11,7 +11,7 @@
 a{
     text-decoration: none;
     color: inherit;
-    font-size: 20px;
+    font-size: 2vh;
 }
   
 ul, ol, li{
@@ -22,12 +22,16 @@ body{
     display: flex;
     justify-content: center;
     place-items: center;
+    background-attachment: fixed; 
+    height: 300vh;
 }
 
 .gradiente {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(to bottom, #8F295E 10%, #A12A2A);
+    background-size: cover; 
+    background-repeat: no-repeat;
       
 }
 
@@ -49,36 +53,26 @@ body{
 
 }
 
-.perfil img{
-    margin-left: 138vh;
-    margin-top: -20vh;
-}
-
 .perfil p{
-    margin-left: 150vh;
-    margin-top: -23vh;
+    margin-left: 165vh;
+    margin-top: -30vh;
     font-size: 3vh;
 }
 
 .cadastro{
-    margin-left: 150vh;
-    margin-top: -20vh;
+    margin-left: 165vh;
+    margin-top: -27vh;
     font-size: 3vh;
 }
 
-.ajuda img{
-    margin-left: 165vh;
-    margin-top: -60vh;
-}
-
 .logo{
-    margin-top: -12vh;
+    margin-top: -16vh;
 }
 
 .eua img{
  height: 60vh;
  width: 100vw;
- margin-top: 1vh;
+ margin-top: -2vh;
 }
 
 .insta{
@@ -95,7 +89,7 @@ body{
 
 .face{
     margin-left: 40vh;
-    margin-top: -5vh;
+    margin-top: -6vh;
 }
 
 .face p{
@@ -106,7 +100,7 @@ body{
 }
 
 .twitter{
-    margin-top: -4.8vh;
+    margin-top: -6vh;
     margin-left: 78vh;
 }
 
@@ -114,7 +108,7 @@ body{
     color: white;
     font-size: 3vh;
     margin-left: 8vh;
-    margin-top: -5.6vh;
+    margin-top: -5vh;
 }
 
 button{
@@ -123,18 +117,18 @@ button{
     background-color: white;
     color: #8F295E;
     margin-top: -3vh;
-    margin-left: 150vh;
+    margin-left: 162.6vh;
 }
 
 #galeria {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(70vh, 1fr));
     gap: 6vw;
     padding: 8vh;
 }
 
 #galeria div {
-    border: 1px solid #ccc;
+    border: 1vh solid #ccc;
 }
 
 #galeria h2 {
@@ -142,14 +136,15 @@ button{
 }
 
 .card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
+    border: 1vh solid #ddd;
+    border-radius: 2vh;
+    padding: 1vh;
     background-color: #F6EBEB;
+    position: relative;
 }
 
 .card h1 {
-    font-size: 3.8vh;
+    font-size: 3vh;
     color: #63172D;
 
 }
@@ -164,3 +159,51 @@ button{
     margin-bottom: 5vh;
     font-size: 2.3vh;
 }
+
+.saiba-mais {
+    background-color: #5E1331;
+    color: white;
+    border: none;
+    font-size: 2.5vh;
+    margin-left: 8vh;
+}
+
+.detalhes-card {
+    border: 1vh solid #ddd;
+    border-radius: 1vh;
+    width: 40vw;
+    height: 60vh;
+    margin-left: 48vh;
+    background-color: #F6EBEB;
+}
+
+.detalhes-card h1{
+    color: #5E1331;
+    font-size: 6vh;
+    margin-left: 3vh;
+}
+
+.detalhes-card h3{
+    margin-top: 3vh;
+    color: #000000;
+    font-size: 3vh;
+    margin-left: 3vh;
+}
+
+.voltar {
+    background-color: #5E1331;
+    color: white;
+    border-radius: 2vh;
+    cursor: pointer;
+    font-size: 3vh;
+    margin-left: 3vh;
+    margin-top: 5vh;
+}
+
+section{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+}
+
+
